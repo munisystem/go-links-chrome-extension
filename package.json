@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "go-links-chrome-extension",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "author": "munisystem",
   "license": "MIT",
   "repository": {
